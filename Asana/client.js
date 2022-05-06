@@ -27,3 +27,4 @@ client.events.stream(config.maintenanceId, {
             console.log("An error occured: " + error)
         })
     }
+})

@@ -82,7 +82,7 @@ const response = await fetch(`https://tenantconcierge.atlassian.net/rest/service
     await getUsers(map.get(props[k]));
   }
 
-  fs.appendFile('./test.xls', "Organizations\tEmails\n", err => {
+  fs.appendFile('../test.xls', "Organizations\tEmails\n", err => {
     if (err) throw err;
   })
   fs.appendFile('./test.xls', data, (err) => {
@@ -93,3 +93,4 @@ const response = await fetch(`https://tenantconcierge.atlassian.net/rest/service
 
   console.log("after getting orgs")
 })();
+

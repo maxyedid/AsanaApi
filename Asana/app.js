@@ -1,5 +1,5 @@
 const asana = require('asana')
-const config = require("./config")
+const config = require("../../config")
 require('dotenv').config()
 
 const client = asana.Client.create().useAccessToken(process.env.TOKEN)
