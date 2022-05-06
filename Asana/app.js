@@ -1,12 +1,12 @@
 const asana = require('asana')
-const config = require("../../config")
+const config = require(".../../config")
 require('dotenv').config()
 
 const client = asana.Client.create().useAccessToken(process.env.TOKEN)
 
 const defaultLimit = 100;
 
-let numTasks = 30;
+let numTasks = 1;
 
 const delay = 200
 //helper task
