@@ -1,2 +1,2 @@
 # AsanaApi
-For personal use for asana and jira automations
+For personal use with asana and jira automations
