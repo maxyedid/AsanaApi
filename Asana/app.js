@@ -6,7 +6,7 @@ const client = asana.Client.create().useAccessToken(process.env.TOKEN)
 
 const defaultLimit = 30;
 
-let numTasks = 50;
+let numTasks = 40;
 
 const delay = 200
 //helper task
